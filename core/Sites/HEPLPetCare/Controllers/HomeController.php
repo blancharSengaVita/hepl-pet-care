@@ -12,6 +12,6 @@ class HomeController
 {
     public function show()
     {
-        return App::getView([]);
+        return App::getView('home', []);
     }
 }
