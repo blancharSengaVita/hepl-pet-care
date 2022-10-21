@@ -1,8 +1,6 @@
 <?php
-//une variable ne peut commencer par un chiffre
 $site_name = 'HEPL Pet Care';
 ?>
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -12,7 +10,7 @@ $site_name = 'HEPL Pet Care';
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>PHP Force HTML Bootstrap 5 Template</title>
+        <title><?= $site_name ?> HTML Bootstrap 5 Template</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +43,7 @@ https://templatemo.com/tm-567-nomad-force
             <section class="hero" id="hero">
                 <div class="heroText">
                     <h1 class="text-white mt-5 mb-lg-4" data-aos="zoom-in" data-aos-delay="800">
-                         <?= $site_name ?>
+                        <?= $site_name ?>
                     </h1>
 
                     <p class="text-secondary-white-color" data-aos="fade-up" data-aos-delay="1000">
@@ -470,7 +468,7 @@ https://templatemo.com/tm-567-nomad-force
                     </div>
 
                 </div>
-            </div>
+            </section>
         </footer>
 
         <!-- JAVASCRIPT FILES -->
